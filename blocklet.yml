@@ -34,7 +34,7 @@ homepage: ''
 timeout:
   start: 60
 requirements:
-  abtnode: '>=1.2.0'
+  abtnode: '>=1.2.5'
   os: '*'
   cpu: '*'
 environments: []
@@ -48,5 +48,13 @@ children:
       - root:
           interfaceName: publicUrl
           prefix: '/discussion'
+        child:
+          interfaceName: publicUrl
+  - name: 'profile-demo'
+    resolved: 'https://booster.dev.registry.arcblock.io/api/blocklets/z8iZqG23gxzv6CbTmtWFAipHGLjPEha4BjAtE/blocklet.json'
+    mountPoints:
+      - root:
+          interfaceName: publicUrl
+          prefix: '/profile'
         child:
           interfaceName: publicUrl
