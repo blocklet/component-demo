@@ -1,0 +1,52 @@
+name: component-demo
+version: 1.0.0
+main: build
+author:
+  name: linchen1987
+license: ''
+title: Component Demo
+description: Combining multiple blocklets together
+group: static
+specVersion: 1.0.0
+files:
+  - blocklet.md
+  - README.md
+  - build
+keywords:
+  - dapp
+  - demo
+  - auth
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: http
+    services:
+      - name: '@abtnode/auth-service'
+        config:
+          blockUnauthenticated: false
+did: z8iZoDztjkY82fsU26vwE8M94eHDK4tjwrFgd
+community: ''
+documentation: ''
+homepage: ''
+timeout:
+  start: 60
+requirements:
+  abtnode: '>=1.2.0'
+  os: '*'
+  cpu: '*'
+environments: []
+scripts:
+  dev: npm run start
+screenshots: []
+children:
+  - name: 'auth-demo'
+    resolved: 'https://booster.dev.registry.arcblock.io/api/blocklets/z8iZw1PjUeQP8yuEoBVWfcD9hft7cbUfxaTaT/blocklet.json'
+    mountPoints:
+      - root:
+          interfaceName: publicUrl
+          prefix: '/discussion'
+        child:
+          interfaceName: publicUrl
