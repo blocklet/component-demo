@@ -16,6 +16,7 @@ keywords:
   - dapp
   - demo
   - auth
+  - component
 interfaces:
   - type: web
     name: publicUrl
