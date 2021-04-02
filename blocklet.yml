@@ -1,8 +1,9 @@
 name: component-demo
-version: 1.0.0
+version: 1.0.1
 main: build
 author:
   name: linchen1987
+homepage: ''
 license: ''
 title: Component Demo
 description: Combining multiple blocklets together
@@ -31,7 +32,6 @@ interfaces:
 did: z8iZoDztjkY82fsU26vwE8M94eHDK4tjwrFgd
 community: ''
 documentation: ''
-homepage: ''
 timeout:
   start: 60
 requirements:
@@ -43,19 +43,25 @@ scripts:
   dev: npm run start
 screenshots: []
 children:
-  - name: 'auth-demo'
-    resolved: 'https://booster.dev.registry.arcblock.io/api/blocklets/z8iZw1PjUeQP8yuEoBVWfcD9hft7cbUfxaTaT/blocklet.json'
+  - name: auth-demo
+    resolved: >-
+      https://booster.dev.registry.arcblock.io/api/blocklets/z8iZw1PjUeQP8yuEoBVWfcD9hft7cbUfxaTaT/blocklet.json
     mountPoints:
       - root:
           interfaceName: publicUrl
-          prefix: '/discussion'
+          prefix: /discussion
         child:
           interfaceName: publicUrl
-  - name: 'profile-demo'
-    resolved: 'https://booster.dev.registry.arcblock.io/api/blocklets/z8iZqG23gxzv6CbTmtWFAipHGLjPEha4BjAtE/blocklet.json'
+  - name: profile-demo
+    resolved: >-
+      https://booster.dev.registry.arcblock.io/api/blocklets/z8iZqG23gxzv6CbTmtWFAipHGLjPEha4BjAtE/blocklet.json
     mountPoints:
       - root:
           interfaceName: publicUrl
-          prefix: '/profile'
+          prefix: /profile
         child:
           interfaceName: publicUrl
+charging:
+  price: 0
+  tokens: []
+  shares: []
