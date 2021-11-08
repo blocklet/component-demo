@@ -2,18 +2,19 @@
 # yarn lockfile v1
 
 
-"@arcblock/did-connect@^1.14.60":
-  version "1.14.60"
-  resolved "https://registry.npmjs.org/@arcblock/did-connect/-/did-connect-1.14.60.tgz#57c392b9cded630411fa3fcfba850449f50c9288"
-  integrity sha512-xfgyr/tsXBWrO6iozkBI+4/i3RNdFtS6oMhwqV8Tx9hIt6N5xlGy+oWHCPGohErJOIkzxfgQWvewLdsJy+KASA==
+"@arcblock/did-connect@^1.15.1":
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-connect/-/did-connect-1.15.1.tgz#bf6836ccf44a4cb6df0cccfb23b0c5df2d7c2d39"
+  integrity sha512-LRPpk3NOJ6gviZk2KV7WQyaobI4c/zZgKC4H56LOnYqIF3fpVtcemy50b12GCSFmSDgsZq9AM82sYWBI7vjD2w==
   dependencies:
     "@arcblock/event-client" "^1.0.23"
-    "@arcblock/icons" "^1.14.60"
-    "@arcblock/react-hooks" "^1.14.60"
-    "@arcblock/ux" "^1.14.60"
+    "@arcblock/icons" "^1.15.1"
+    "@arcblock/react-hooks" "^1.15.1"
+    "@arcblock/ux" "^1.15.1"
     "@fontsource/rubik" "^4.5.0"
     "@fontsource/ubuntu-mono" "^4.4.5"
     "@material-ui/core" "^4.12.3"
+    "@material-ui/icons" "4.11.2"
     axios "^0.21.1"
     core-js "^3.6.4"
     dsbridge "3.1.4"
@@ -35,27 +36,27 @@
     wolfy87-eventemitter "^5.2.5"
     ws "^7.2.0"
 
-"@arcblock/icons@^1.14.60":
-  version "1.14.60"
-  resolved "https://registry.npmjs.org/@arcblock/icons/-/icons-1.14.60.tgz#d1fa7e159d809aad2e7b24b7502d47a784e86cc6"
-  integrity sha512-0STpm2KjYICndA96uj4IvbOyK0Qe+IUmbmRfkuzrESiHugtNsDuq3bJcV5GFd8mXQyyGOaMpkIOkqBRHsDK9iw==
+"@arcblock/icons@^1.15.1":
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/@arcblock/icons/-/icons-1.15.1.tgz#120fdd564cdf432f9a31047b11aff1d8731abd03"
+  integrity sha512-wyTSGesUmVET0/SHu3Pizade121nW7hnuA/O0BBgnwduPx4lbp/5+vIFTvYqwEiVyrps7GlRhdoGZI/AWQGpSQ==
 
-"@arcblock/react-hooks@^1.14.60":
-  version "1.14.60"
-  resolved "https://registry.npmjs.org/@arcblock/react-hooks/-/react-hooks-1.14.60.tgz#dd4e64ea0e85902c17b0d874033beca3f68b7795"
-  integrity sha512-ActYaqS8MwU0h7G2InT2xxGzCxY8dLmARcUHxkEl1QzarIi7Dj4WXEAyi7UkEzLl+JkYdZr/mNl2QC0TvvVvcQ==
+"@arcblock/react-hooks@^1.15.1":
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-1.15.1.tgz#81f6b337f5de95ea729b69739ad90f2f099fb8a6"
+  integrity sha512-o8zxst9XD0ib1tggngR9oHfwqH2Rj9s3Ao0pg5n3wj2DGdxaHg8UPdtW+orWDbXhZbGmM1iJmpLe7zxiR4qxng==
   dependencies:
     core-js "^3.6.4"
     event-target-shim "^5.0.1"
     ismobilejs "^1.0.3"
 
-"@arcblock/ux@^1.14.60":
-  version "1.14.60"
-  resolved "https://registry.npmjs.org/@arcblock/ux/-/ux-1.14.60.tgz#2ecadb603ad1619f26b6f7ac8e6009d82602e5c5"
-  integrity sha512-hZP+YIJ7pQKbZunI7y3BCaM+G7QDIEsTPSsgpRZqBM+78DHFhjI58Avh70GzoCgKQEU11w7RXcB0hPFDl9/IwQ==
+"@arcblock/ux@^1.15.1":
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-1.15.1.tgz#6d5796f5df4ce4ba84148b736466d1a7ce4c3d53"
+  integrity sha512-YnRBFL7OXt2EdpNGCEbY0inPqDC41MGqfhY28HwYPz2h6ymsl4LDBy34XNM1E4HF3rjuCno34FFg2KzDsPMUlA==
   dependencies:
-    "@arcblock/icons" "^1.14.60"
-    "@arcblock/react-hooks" "^1.14.60"
+    "@arcblock/icons" "^1.15.1"
+    "@arcblock/react-hooks" "^1.15.1"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
     "@material-ui/core" "^4.12.3"
     "@material-ui/icons" "4.11.2"
