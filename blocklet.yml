@@ -1,5 +1,5 @@
 name: component-demo
-version: 1.0.3
+version: 1.0.4
 main: build
 author:
   name: linchen1987
@@ -65,4 +65,5 @@ charging:
   price: 0
   tokens: []
   shares: []
-capabilities: {}
+capabilities:
+  clusterMode: false
