@@ -1,3 +1,7 @@
+## 1.0.7 (December 03, 2021)
+
+- chore: update arcblock-related deps
+
 ## 1.0.6 (November 24, 2021)
 
 - upgrade arcblock related dependencies
