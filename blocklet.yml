@@ -1,5 +1,5 @@
 name: component-demo
-version: 1.0.7
+version: 1.0.8
 main: build
 author:
   name: linchen1987
@@ -8,7 +8,7 @@ license: ''
 title: Component Demo
 description: Combining multiple blocklets together
 group: static
-specVersion: 1.1.1
+specVersion: 1.2.0
 files:
   - blocklet.md
   - README.md
@@ -61,9 +61,8 @@ children:
           prefix: /profile
         child:
           interfaceName: publicUrl
-charging:
-  price: 0
-  tokens: []
-  shares: []
+payment:
+  price: []
+  share: []
 capabilities:
   clusterMode: false

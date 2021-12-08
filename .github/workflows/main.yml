@@ -7,27 +7,25 @@ on:
 
 jobs:
   Deploy:
-
     runs-on: ubuntu-latest
 
     if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
 
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
 
-    - name: Checkout repo
-      uses: actions/checkout@v2
+      - name: Set yarn cache
+        uses: c-hive/gha-yarn-cache@v2
 
-    - name: Init
-      run: make github-action-init
+      - name: Init
+        run: make github-action-init
 
-    - name: Deploy
-      env:
-        GIT_HUB_TOKEN: ${{ secrets.GIT_HUB_TOKEN }}
-        STAGING_REGISTRY: ${{ secrets.STAGING_REGISTRY }}
-        ABTNODE_DEV_STAGING_SK: ${{ secrets.ABTNODE_DEV_STAGING_SK }}
-      run: bash ./tools/publish.sh
-
-    - name: Release to Github
-      uses: blocklet/action-release-to-github@v1.0.0
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Blocklet workflow
+        uses: blocklet/action-workflow@v1.1
+        with:
+          skip-upload: false
+          bundle-command: yarn release
+          store-endpoint: ${{ secrets.STORE_ENDPOINT_DEV }}
+          store-access-token: ${{ secrets.STORE_ACCESS_TOKEN_DEV }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}

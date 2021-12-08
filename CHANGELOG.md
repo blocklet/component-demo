@@ -1,3 +1,7 @@
+## 1.0.8 (十二月 08, 2021)
+
+- chore: upgrade blocklet.yml
+
 ## 1.0.7 (December 03, 2021)
 
 - chore: update arcblock-related deps
@@ -23,6 +27,5 @@ chore: bump deps to latest
 chore: replace did-react with did-connect
 
 ## 1.0.1 (April 02, 2021)
-
 
 ## 1.0.0
