@@ -2,20 +2,16 @@
 
 Combining multiple blocklets together
 
-## Install on my ABT Node
-
-[![Install on my ABT Node](https://raw.githubusercontent.com/blocklet/development-guide/main/assets/install_on_abtnode.svg)](https://install.arcblock.io/?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Fcomponent-demo%2Freleases%2Fdownload%2Fv1.0.8%2Fblocklet.json)
-
 ## Run and debug in local
 
 ```shell
-yarn global add @abtnode/cli
+yarn global add @blocklet/cli
 git clone git@github.com:blocklet/component-demo.git
-cd auth-demo
+cd component-demo
 cp .env.bac .env
 yarn
-abtnode init -f --mode debug
-abtnode start
+blocklet server init -f --mode debug
+blocklet server start
 blocklet dev
 ```
 
