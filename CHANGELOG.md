@@ -1,3 +1,7 @@
+## 1.0.9 (December 28, 2021)
+
+- chore: update docs (abtnode rebranding)
+
 ## 1.0.8 (十二月 08, 2021)
 
 - chore: upgrade blocklet.yml
