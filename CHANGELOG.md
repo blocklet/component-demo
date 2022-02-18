@@ -1,3 +1,7 @@
+## 1.0.10 (February 18, 2022)
+
+- chore: update blocklet.yml
+
 ## 1.0.9 (December 28, 2021)
 
 - chore: update docs (abtnode rebranding)

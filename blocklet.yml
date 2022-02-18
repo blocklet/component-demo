@@ -1,5 +1,5 @@
 name: component-demo
-version: 1.0.9
+version: 1.0.10
 main: build
 author:
   name: linchen1987
@@ -8,7 +8,7 @@ license: ''
 title: Component Demo
 description: Combining multiple blocklets together
 group: static
-specVersion: 1.2.0
+specVersion: 1.2.3
 files:
   - blocklet.md
   - README.md
@@ -46,23 +46,14 @@ children:
   - name: auth-demo
     resolved: >-
       https://booster.dev.registry.arcblock.io/api/blocklets/z8iZw1PjUeQP8yuEoBVWfcD9hft7cbUfxaTaT/blocklet.json
-    mountPoints:
-      - root:
-          interfaceName: publicUrl
-          prefix: /discussion
-        child:
-          interfaceName: publicUrl
+    mountPoint: /discussion
   - name: profile-demo
     resolved: >-
       https://booster.dev.registry.arcblock.io/api/blocklets/z8iZqG23gxzv6CbTmtWFAipHGLjPEha4BjAtE/blocklet.json
-    mountPoints:
-      - root:
-          interfaceName: publicUrl
-          prefix: /profile
-        child:
-          interfaceName: publicUrl
+    mountPoint: /profile
 payment:
   price: []
   share: []
 capabilities:
   clusterMode: false
+  component: false
