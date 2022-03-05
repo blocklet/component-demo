@@ -1,3 +1,7 @@
+## 1.1.0 (March 05, 2022)
+
+- fix: child blocklet resolve url
+
 ## 1.0.9 (December 28, 2021)
 
 - chore: update docs (abtnode rebranding)
