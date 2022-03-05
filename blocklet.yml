@@ -45,7 +45,7 @@ screenshots: []
 children:
   - name: auth-demo
     resolved: >-
-      https://booster.dev.registry.arcblock.io/api/blocklets/z8iZw1PjUeQP8yuEoBVWfcD9hft7cbUfxaTaT/blocklet.json
+      https://dev.store.blocklet.dev/api/blocklets/z8iZw1PjUeQP8yuEoBVWfcD9hft7cbUfxaTaT/blocklet.json
     mountPoints:
       - root:
           interfaceName: publicUrl
@@ -54,7 +54,7 @@ children:
           interfaceName: publicUrl
   - name: profile-demo
     resolved: >-
-      https://booster.dev.registry.arcblock.io/api/blocklets/z8iZqG23gxzv6CbTmtWFAipHGLjPEha4BjAtE/blocklet.json
+      https://dev.store.blocklet.dev/api/blocklets/z8iZqG23gxzv6CbTmtWFAipHGLjPEha4BjAtE/blocklet.json
     mountPoints:
       - root:
           interfaceName: publicUrl
