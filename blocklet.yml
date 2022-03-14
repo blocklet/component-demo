@@ -1,5 +1,5 @@
 name: component-demo
-version: 1.1.0
+version: 1.2.0
 main: build
 author:
   name: linchen1987
@@ -25,17 +25,13 @@ interfaces:
     prefix: '*'
     port: BLOCKLET_PORT
     protocol: http
-    services:
-      - name: '@abtnode/auth-service'
-        config:
-          blockUnauthenticated: false
 did: z8iZoDztjkY82fsU26vwE8M94eHDK4tjwrFgd
 community: ''
 documentation: ''
 timeout:
   start: 60
 requirements:
-  abtnode: '>=1.2.5'
+  server: '>=1.6.29'
   os: '*'
   cpu: '*'
 environments: []
@@ -46,21 +42,13 @@ children:
   - name: auth-demo
     resolved: >-
       https://dev.store.blocklet.dev/api/blocklets/z8iZw1PjUeQP8yuEoBVWfcD9hft7cbUfxaTaT/blocklet.json
-    mountPoints:
-      - root:
-          interfaceName: publicUrl
-          prefix: /discussion
-        child:
-          interfaceName: publicUrl
+    mountPoint: /discussion
+    mountPoints: []
   - name: profile-demo
     resolved: >-
       https://dev.store.blocklet.dev/api/blocklets/z8iZqG23gxzv6CbTmtWFAipHGLjPEha4BjAtE/blocklet.json
-    mountPoints:
-      - root:
-          interfaceName: publicUrl
-          prefix: /profile
-        child:
-          interfaceName: publicUrl
+    mountPoint: /profile
+    mountPoints: []
 payment:
   price: []
   share: []

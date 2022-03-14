@@ -1,3 +1,7 @@
+## 1.2.0 (March 15, 2022)
+
+- chore: update blocklet.yml
+
 ## 1.1.0 (March 05, 2022)
 
 - fix: child blocklet resolve url
