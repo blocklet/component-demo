@@ -1,3 +1,7 @@
+## 1.2.1 (四月 06, 2022)
+
+- chore: remove getWebWalletUrl
+
 ## 1.2.0 (March 15, 2022)
 
 - chore: update blocklet.yml
