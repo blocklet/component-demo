@@ -1,3 +1,7 @@
+## 1.2.2 (April 26, 2022)
+
+- chore: use common header/footer
+
 ## 1.2.1 (四月 06, 2022)
 
 - chore: remove getWebWalletUrl

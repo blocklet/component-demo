@@ -1,5 +1,5 @@
 name: component-demo
-version: 1.2.1
+version: 1.2.2
 main: build
 author:
   name: linchen1987
@@ -57,7 +57,7 @@ theme:
   background: '#cfefe8'
 navigation:
   - title: Home
-    link: '/'
+    link: /
   - title: Discuss
     child: auth-demo
   - title: Profile
