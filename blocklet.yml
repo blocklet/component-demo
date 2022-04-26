@@ -62,7 +62,7 @@ navigation:
     child: auth-demo
   - title: Profile
     child: profile-demo
-  - title: Test
+  - title: Store
     items:
       - title: Blocklet Store
         link: 'https://store.blocklet.dev'
