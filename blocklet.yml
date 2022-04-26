@@ -43,15 +43,28 @@ children:
     resolved: >-
       https://dev.store.blocklet.dev/api/blocklets/z8iZw1PjUeQP8yuEoBVWfcD9hft7cbUfxaTaT/blocklet.json
     mountPoint: /discussion
-    mountPoints: []
   - name: profile-demo
     resolved: >-
       https://dev.store.blocklet.dev/api/blocklets/z8iZqG23gxzv6CbTmtWFAipHGLjPEha4BjAtE/blocklet.json
     mountPoint: /profile
-    mountPoints: []
 payment:
   price: []
   share: []
 capabilities:
   clusterMode: false
   component: true
+theme:
+  background: '#cfefe8'
+navigation:
+  - title: Home
+    link: '/'
+  - title: Discuss
+    child: auth-demo
+  - title: Profile
+    child: profile-demo
+  - title: Test
+    items:
+      - title: Blocklet Store
+        link: 'https://store.blocklet.dev'
+      - title: Dev Blocklet Store
+        link: 'https://dev.store.blocklet.dev'
