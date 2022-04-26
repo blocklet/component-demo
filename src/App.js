@@ -1,4 +1,5 @@
 import React from 'react';
+import { LocaleProvider } from '@arcblock/ux/lib/Locale/context';
 import { SessionProvider } from './libs/session';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -15,12 +16,14 @@ if (window.blocklet && window.blocklet.prefix) {
 function App() {
 
   return (
-    <SessionProvider
-      serviceHost={apiPrefix}
-    >
-      <CssBaseline />
-      <Main />
-    </SessionProvider>
+    <LocaleProvider translations={{}}>
+      <SessionProvider
+        serviceHost={apiPrefix}
+      >
+        <CssBaseline />
+        <Main />
+      </SessionProvider>
+    </LocaleProvider>
   );
 }
 

@@ -7,59 +7,51 @@ import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import TextsmsIcon from '@material-ui/icons/Textsms';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import IconButton from '@material-ui/core/IconButton';
+import Box from '@material-ui/core/Box';
 import ListItemText from '@material-ui/core/ListItemText';
-import { Alert, AlertTitle } from '@material-ui/lab';
-
-import Button from '@arcblock/ux/lib/Button';
-
-import { useSessionContext } from '../libs/session';
+import { Alert } from '@material-ui/lab';
+import Header from '@blocklet/ui/lib/Header';
+import Footer from '@blocklet/ui/lib/Footer';
 
 export default function Main() {
-  const { session, api } = useSessionContext();
-
-  const isLogin = !!session.user;
-
   function ListItemLink(props) {
     return <ListItem button component="a" {...props} />;
   }
 
   return (
-    <Container>
-      <Media className="header">
-        <div className="left">
-          <div style={{ fontSize: 20 }}>Component Demo</div>
-        </div>
-        <div className="right">
-          { isLogin && <span style={{ top: 1, position: 'relative', marginRight: 6 }}>Hello, {session.user.fullName}</span> }
-          <Button onClick={() => isLogin ? session.logout() : session.login()}>{ isLogin ? 'Logout' : 'Login' }</Button>
-        </div>
-      </Media>
-      <Alert severity="info">
-        Component Demo is a blocklet that is combined with other blocklets. <br />
-        These blocklets use a unified auth service and config. <br />
-        Click on "Discussion" or "Profile" to experience it!
-      </Alert>
-      <List>
-        <ListItemLink href="./discussion">
-          <ListItemIcon>
-            <TextsmsIcon />
-          </ListItemIcon>
-          <ListItemText primary="Discussion" />
-          <IconButton edge="end" aria-label="navigate">
-            <NavigateNextIcon />
-          </IconButton>
-        </ListItemLink>
-        <ListItemLink href="./profile">
-          <ListItemIcon edge="end">
-            <AccountBoxIcon />
-          </ListItemIcon>
-          <ListItemText primary="Profile" />
-          <IconButton edge="end" aria-label="navigate">
-            <NavigateNextIcon />
-          </IconButton>
-        </ListItemLink>
-      </List>
-    </Container>
+    <Box display="flex" flexDirection="column" height="100vh" overflow="hidden">
+      <Header />
+      <Box flex="1" my={4} overflow="auto">
+        <Container>
+          <Alert severity="info">
+            Component Demo is a blocklet that is combined with other blocklets. <br />
+            These blocklets use a unified auth service and config. <br />
+            Click on "Discussion" or "Profile" to experience it!
+          </Alert>
+          <List>
+            <ListItemLink href="./discussion">
+              <ListItemIcon>
+                <TextsmsIcon />
+              </ListItemIcon>
+              <ListItemText primary="Discussion" />
+              <IconButton edge="end" aria-label="navigate">
+                <NavigateNextIcon />
+              </IconButton>
+            </ListItemLink>
+            <ListItemLink href="./profile">
+              <ListItemIcon edge="end">
+                <AccountBoxIcon />
+              </ListItemIcon>
+              <ListItemText primary="Profile" />
+              <IconButton edge="end" aria-label="navigate">
+                <NavigateNextIcon />
+              </IconButton>
+            </ListItemLink>
+          </List>
+        </Container>
+      </Box>
+      <Footer />
+    </Box>
   );
 }
 
