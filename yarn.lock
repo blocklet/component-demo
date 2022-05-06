@@ -2,21 +2,21 @@
 # yarn lockfile v1
 
 
-"@arcblock/did-connect@^1.17.9":
-  version "1.17.9"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-connect/-/did-connect-1.17.9.tgz#5d4830947ba6ed66f4a2a18eb4b73519aec5dc27"
-  integrity sha512-cOKopKiLlMzqk6R//QfCoSFh8aQpb8ixMjACanDwmsLd3sGweYrwa7ruclAFDPBW2kOLIZAFr/ZFk7AhHdc8pA==
+"@arcblock/did-connect@^1.17.14":
+  version "1.17.14"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-connect/-/did-connect-1.17.14.tgz#71b04c67711cdd7915a58d2b28ae8d292fa97148"
+  integrity sha512-EIwh+XcKnXhPO8wZgBxItJUuXmHfc+ZAG9WWI/A267BDJWY7fiXxeskAslIyVsbhZDsHPOCthmHNtFrwWV7Iiw==
   dependencies:
     "@arcblock/did-motif" "^1.1.5"
     "@arcblock/event-client" "^1.6.3"
-    "@arcblock/icons" "^1.17.9"
-    "@arcblock/react-hooks" "^1.17.9"
-    "@arcblock/ux" "^1.17.9"
-    "@fontsource/rubik" "^4.5.0"
+    "@arcblock/icons" "^1.17.14"
+    "@arcblock/react-hooks" "^1.17.14"
+    "@arcblock/ux" "^1.17.14"
+    "@fontsource/lato" "^4.5.3"
     "@fontsource/ubuntu-mono" "^4.4.5"
     "@material-ui/core" "^4.12.3"
     "@material-ui/icons" "4.11.2"
-    axios "^0.26.1"
+    axios "^0.21.2"
     core-js "^3.6.4"
     dsbridge "3.1.4"
     js-cookie "^2.2.1"
@@ -45,33 +45,33 @@
     wolfy87-eventemitter "^5.2.5"
     ws "^7.2.0"
 
-"@arcblock/icons@^1.17.9":
-  version "1.17.9"
-  resolved "https://registry.yarnpkg.com/@arcblock/icons/-/icons-1.17.9.tgz#1f2e5f65d9827295a99f27757cc4b966b4a538ca"
-  integrity sha512-OWQf9VimOkzeyihKtZr4nQ4GUppq66mCletMVGRXzraOToS2CCYC/Ez4NOaWgBwE1csKJjzzB9UPumZfnFA6LA==
+"@arcblock/icons@^1.17.14":
+  version "1.17.14"
+  resolved "https://registry.yarnpkg.com/@arcblock/icons/-/icons-1.17.14.tgz#52b1dc98c17c503266a4657b8971c84826b31e07"
+  integrity sha512-bXmlouNmjFKTDpKc63k877rXaCSOdlW6liPxqwDRPzken4De4mRlbD7nHwVMourIScVyDtmYLQ4BjtCa4PfxKg==
 
-"@arcblock/react-hooks@^1.17.9":
-  version "1.17.9"
-  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-1.17.9.tgz#3eb11f7518f1cf6a05383a7975167e4c58d02ed8"
-  integrity sha512-swWoldzRu6gwuBUjc1I/i/uQ+1n1O/oRm8PWz3xjTqwdSUio0g7QtVV6nXvHKR08Xkp52jo0vZ6wGznu8uQ0iw==
+"@arcblock/react-hooks@^1.17.14":
+  version "1.17.14"
+  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-1.17.14.tgz#45f7e7e93e9d1beb622d5ff957b76f707cab26d4"
+  integrity sha512-lvQXILxW5Bk164yYjMZb06JPiIbOPtA7rE9AbCO52c3CS5WpN1sVPFl7BvyYKB2GuL0DF+76F6kXXygBmCpG0Q==
   dependencies:
     core-js "^3.6.4"
     event-target-shim "^5.0.1"
     ismobilejs "^1.0.3"
 
-"@arcblock/ux@^1.17.9":
-  version "1.17.9"
-  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-1.17.9.tgz#eeb9c08bb5c5eb7d57f4cab08484854ce72ae482"
-  integrity sha512-OtSfob2rT/yU1Qlnvwxe7WzY2k7py8G0pSHIOsBh37KMqZgc+TsJJsYZhq7+LiA4dbkBxc45b1ZQ1WVTJJoW7A==
+"@arcblock/ux@^1.17.14":
+  version "1.17.14"
+  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-1.17.14.tgz#f8163f114ee2b59c893e3493ed09c957c1b9f246"
+  integrity sha512-GqgRPnByG+QEuSSNdg7ilo94cBvieuuHn3+/TondtWp3vN5rgNvcaEAcHI8tX48vNq+gUzGXljgFSedjbwz7lQ==
   dependencies:
-    "@arcblock/icons" "^1.17.9"
-    "@arcblock/react-hooks" "^1.17.9"
+    "@arcblock/icons" "^1.17.14"
+    "@arcblock/react-hooks" "^1.17.14"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
     "@fontsource/lato" "^4.5.3"
     "@material-ui/core" "^4.12.3"
     "@material-ui/icons" "4.11.2"
     "@solana/qr-code-styling" "^1.6.0-beta.0"
-    axios "^0.26.1"
+    axios "^0.21.2"
     base64-url "^2.3.3"
     copy-to-clipboard "^3.2.0"
     core-js "^3.6.4"
@@ -85,6 +85,7 @@
     react-cookie-consent "^6.4.1"
     react-helmet "^6.1.0"
     react-intersection-observer "^8.31.1"
+    react-lottie-player "^1.4.2"
     react-player "^1.15.2"
     react-router-dom "^5.1.2"
     react-shadow "^19.0.2"
@@ -1260,13 +1261,13 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@blocklet/ui@^1.17.9":
-  version "1.17.9"
-  resolved "https://registry.yarnpkg.com/@blocklet/ui/-/ui-1.17.9.tgz#530a190e3417dc775c6f1e82ce4a9cfa8aaec67f"
-  integrity sha512-1FsjwLWy6Qabx3w4ZDi5G9gtQFSTxMTBWVP3Iinbr0/QXuUco+m8kLTV1PDms0sY/yAFXRYaCitR//9jTWWmNg==
+"@blocklet/ui-react@^1.17.14":
+  version "1.17.14"
+  resolved "https://registry.yarnpkg.com/@blocklet/ui-react/-/ui-react-1.17.14.tgz#5865d9e9cfb0dafef3c886806354b431b69a576d"
+  integrity sha512-wzjKU7zmW6l6b+PbEQeLulyfjSfINaZRLAlLL+X70y0IDdo14X0zLdwcSAKF2P4Kq28ffJGBxqAO8KfBRYgOxA==
   dependencies:
-    "@arcblock/did-connect" "^1.17.9"
-    "@arcblock/ux" "^1.17.9"
+    "@arcblock/did-connect" "^1.17.14"
+    "@arcblock/ux" "^1.17.14"
     "@material-ui/core" "^4.12.3"
     core-js "^3.6.4"
     styled-components "^5.0.0"
@@ -1335,11 +1336,6 @@
   version "4.5.5"
   resolved "https://registry.yarnpkg.com/@fontsource/lato/-/lato-4.5.5.tgz#d7371e29600528a44f5076a1604cf223168d1579"
   integrity sha512-0KVmVCq3wZnriKVdbY+n/ZLf7Vy+dQcqpcm8kaVX4QGd6uBTgH6YWLnM1L051TtjKlal2FiE6xc/BLw116a0gQ==
-
-"@fontsource/rubik@^4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@fontsource/rubik/-/rubik-4.5.0.tgz#e6e86606903d7102c565eec4b1339298308c3acb"
-  integrity sha512-evvN6wFvc4gH9X3PuRkAfaWXJya5jcZxbMpAsiQIfq8KUCSBx74Rknm5M6hpRuB9AdxdchF/A3p18VkR9RZy2g==
 
 "@fontsource/ubuntu-mono@^4.4.5":
   version "4.5.0"
@@ -2833,12 +2829,12 @@ axe-core@^4.0.2:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.1.3.tgz#64a4c85509e0991f5168340edc4bedd1ceea6966"
   integrity sha512-vwPpH4Aj4122EW38mxO/fxhGKtwWTMLDIJfZ1He0Edbtjcfna/R3YB67yVhezUMzqc3Jr3+Ii50KRntlENL4xQ==
 
-axios@^0.26.1:
-  version "0.26.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.26.1.tgz#1ede41c51fcf51bbbd6fd43669caaa4f0495aaa9"
-  integrity sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==
+axios@^0.21.2:
+  version "0.21.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
   dependencies:
-    follow-redirects "^1.14.8"
+    follow-redirects "^1.14.0"
 
 axobject-query@^2.2.0:
   version "2.2.0"
@@ -5576,10 +5572,10 @@ follow-redirects@^1.0.0:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.3.tgz#e5598ad50174c1bc4e872301e82ac2cd97f90267"
   integrity sha512-DUgl6+HDzB0iEptNQEXLx/KhTmDb8tZUHSeLqpnjpknR70H0nC2t9N73BK6fN4hOvJ84pKlIQVQ4k5FFlBedKA==
 
-follow-redirects@^1.14.8:
-  version "1.14.9"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.9.tgz#dd4ea157de7bfaf9ea9b3fbd85aa16951f78d8d7"
-  integrity sha512-MQDfihBQYMcyy5dhRDJUHcw7lb2Pv/TuE6xP1vyraLukNDHKbDxDNaOE3NbCAdKQApno+GPRyo1YAp89yCjK4w==
+follow-redirects@^1.14.0:
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.0.tgz#06441868281c86d0dda4ad8bdaead2d02dca89d4"
+  integrity sha512-aExlJShTV4qOUOL7yF1U5tvLCB0xQuudbf6toyYA0E/acBNw71mvjFTnLaRp50aQaYocMR0a/RMMBIHeZnGyjQ==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -7814,6 +7810,11 @@ loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.1, loose-envify@^1.4
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
+
+lottie-web@^5.7.6:
+  version "5.9.4"
+  resolved "https://registry.yarnpkg.com/lottie-web/-/lottie-web-5.9.4.tgz#c01478ee5dd47f916cb4bb79040c11d427872d57"
+  integrity sha512-bSs1ZTPifnBVejO1MnQHdfrKfcn02YTCmgOh2wcAEICqRA0V7GzDh8FnwXY6+EzT+i8XOunaIloo/5xC5YNbsA==
 
 lower-case@^2.0.2:
   version "2.0.2"
@@ -10085,6 +10086,15 @@ react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
+react-lottie-player@^1.4.2:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/react-lottie-player/-/react-lottie-player-1.4.3.tgz#95e7eec0c791dc10a4095385b8611e31437651eb"
+  integrity sha512-RUhbwNgUDY482AbYyrsb2q+UyiCNFfUJbmbFEmrpCrtBV0qFYx6v9fC9ur5q8xGyZLWIYTsmD48oe18xZhXATA==
+  dependencies:
+    fast-deep-equal "^3.1.3"
+    lottie-web "^5.7.6"
+    rfdc "^1.3.0"
+
 react-player@^1.15.2:
   version "1.15.3"
   resolved "https://registry.yarnpkg.com/react-player/-/react-player-1.15.3.tgz#d00cf145f9c86184cb0a071a1fbf8ecb7b68987f"
@@ -10677,6 +10687,11 @@ rework@1.0.1:
   dependencies:
     convert-source-map "^0.3.3"
     css "^2.0.0"
+
+rfdc@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/rfdc/-/rfdc-1.3.0.tgz#d0b7c441ab2720d05dc4cf26e01c89631d9da08b"
+  integrity sha512-V2hovdzFbOi77/WajaSMXk2OLm+xNIeQdMMuB7icj7bk6zi2F8GGAxigcnDFpJHbNyNcgyJDiP+8nOrY5cZGrA==
 
 rgb-regex@^1.0.1:
   version "1.0.1"
