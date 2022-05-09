@@ -1,3 +1,7 @@
+## 1.2.3 (May 09, 2022)
+
+- chore: use new version of blocklet-ui Header/Footer
+
 ## 1.2.2 (April 26, 2022)
 
 - chore: use common header/footer
