@@ -54,15 +54,19 @@ capabilities:
   clusterMode: false
   component: true
 theme:
-  background: '#cfefe8'
+  background: '#fff'
 navigation:
   - title: Home
     link: /
+    icon: 'mdi:home'
   - title: Discuss
     child: auth-demo
+    icon: 'mdi:chat-processing'
   - title: Profile
     child: profile-demo
+    icon: 'mdi:text-box'
   - title: Store
+    icon: 'mdi:alpha-t-box'
     items:
       - title: Blocklet Store
         link: 'https://store.blocklet.dev'
