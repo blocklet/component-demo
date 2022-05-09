@@ -10,8 +10,8 @@ import IconButton from '@material-ui/core/IconButton';
 import Box from '@material-ui/core/Box';
 import ListItemText from '@material-ui/core/ListItemText';
 import { Alert } from '@material-ui/lab';
-import Header from '@blocklet/ui/lib/Header';
-import Footer from '@blocklet/ui/lib/Footer';
+import Header from '@blocklet/ui-react/lib/Header';
+import Footer from '@blocklet/ui-react/lib/Footer';
 
 export default function Main() {
   function ListItemLink(props) {
