@@ -1,5 +1,5 @@
 name: component-demo
-version: 1.2.3
+version: 1.2.4
 main: build
 author:
   name: linchen1987
@@ -65,6 +65,6 @@ navigation:
   - title: Store
     items:
       - title: Blocklet Store
-        link: 'https://store.blocklet.dev'
+        link: https://store.blocklet.dev
       - title: Dev Blocklet Store
-        link: 'https://dev.store.blocklet.dev'
+        link: https://dev.store.blocklet.dev
