@@ -1,3 +1,7 @@
+## 1.2.4 (May 10, 2022)
+
+- chore: update favicon
+
 ## 1.2.3 (May 09, 2022)
 
 - chore: use new version of blocklet-ui Header/Footer
