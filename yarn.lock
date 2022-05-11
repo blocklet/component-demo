@@ -2,16 +2,16 @@
 # yarn lockfile v1
 
 
-"@arcblock/did-connect@^1.17.17":
-  version "1.17.17"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-connect/-/did-connect-1.17.17.tgz#17808741d657c2b558d0217cc234b2dd50d2b072"
-  integrity sha512-UzvSimX2jNZwEfuU5C9SwOLUcgxozdIKw9OOoLK9d8H70WDk//qhX+VjgMQFNwuxbugm3HPWqQ26jSPtzG4vhA==
+"@arcblock/did-connect@^1.17.18":
+  version "1.17.18"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-connect/-/did-connect-1.17.18.tgz#70f403f070756329cb3705a95f0c075c89f876b1"
+  integrity sha512-YlqyMi7Mu7vdMIXjS591EVU+6h4mOEzQk1p0O9C3LTZa7cM7F5ZLytKtHcUbz5zAQfICegOXkp3RjkrC6IMYnQ==
   dependencies:
     "@arcblock/did-motif" "^1.1.5"
     "@arcblock/event-client" "^1.6.3"
-    "@arcblock/icons" "^1.17.17"
-    "@arcblock/react-hooks" "^1.17.17"
-    "@arcblock/ux" "^1.17.17"
+    "@arcblock/icons" "^1.17.18"
+    "@arcblock/react-hooks" "^1.17.18"
+    "@arcblock/ux" "^1.17.18"
     "@fontsource/lato" "^4.5.3"
     "@fontsource/ubuntu-mono" "^4.4.5"
     "@material-ui/core" "^4.12.3"
@@ -45,27 +45,27 @@
     wolfy87-eventemitter "^5.2.5"
     ws "^7.2.0"
 
-"@arcblock/icons@^1.17.17":
-  version "1.17.17"
-  resolved "https://registry.yarnpkg.com/@arcblock/icons/-/icons-1.17.17.tgz#39360826e6d7ee92c2e527d5f3ab14f9803db0aa"
-  integrity sha512-EGUKJmXROHJ0NL3CCXra5tknt4Vln2bxeAdrfakButmxNFci6Cdjopb8Y62hOee2b8QDcFBH1+c4z+20/aoOfg==
+"@arcblock/icons@^1.17.18":
+  version "1.17.18"
+  resolved "https://registry.yarnpkg.com/@arcblock/icons/-/icons-1.17.18.tgz#58d3fb624db580bc4a5055b9b6acdd36eddfeb32"
+  integrity sha512-1OSjhsMRnN4CnSUPCM2gfMyVTQ62dMe1NUM1YtsRNqOcMMfJOYGNW/9pa4A5lVp9TIZFuYgjufvM612+sk8Wlg==
 
-"@arcblock/react-hooks@^1.17.17":
-  version "1.17.17"
-  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-1.17.17.tgz#99ed89a38e4fd9a764317e3a958d17a4253394cc"
-  integrity sha512-gDEL7B1j9BzGc5qTX7AHqjSKjOqziVeMZnwuGI5FiROg0qWVgAVRoSMUsekkW441TtDLaPtaZQEclPTcKdUUqw==
+"@arcblock/react-hooks@^1.17.18":
+  version "1.17.18"
+  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-1.17.18.tgz#8eb9c56846014f4706094a484a564dc8e7f10b76"
+  integrity sha512-64PUSLq3o8MogkZMEut+ltG9y5HGiST7QNx1VEOELGnbmOEiuvs+UarV1p6ROalpkM6H9U/qvEO+0v1XvwkZeg==
   dependencies:
     core-js "^3.6.4"
     event-target-shim "^5.0.1"
     ismobilejs "^1.0.3"
 
-"@arcblock/ux@^1.17.17":
-  version "1.17.17"
-  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-1.17.17.tgz#185d76c1d743d762c6f1f2263473840ff8d7ea64"
-  integrity sha512-hP3dIu0SCaC/EtwJTGdwveZo/KBmsl1c+ZA7zYHudibDsxI6iM+pbQeKDRDRXyid+BLuwTgf/H5Yc4BM8xvkiA==
+"@arcblock/ux@^1.17.18":
+  version "1.17.18"
+  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-1.17.18.tgz#98e68958e7c66a1634917891512ec36154486770"
+  integrity sha512-ekg3qwZm/ZP3c+cW1ipgScr3OdGsJjBgEbBpu4KJ7gSWC/6ilrT38A8JxHVToZ5bsD49jq/HrsSW+rBHinNyAQ==
   dependencies:
-    "@arcblock/icons" "^1.17.17"
-    "@arcblock/react-hooks" "^1.17.17"
+    "@arcblock/icons" "^1.17.18"
+    "@arcblock/react-hooks" "^1.17.18"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
     "@fontsource/lato" "^4.5.3"
     "@material-ui/core" "^4.12.3"
@@ -1261,13 +1261,13 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@blocklet/ui-react@^1.17.17":
-  version "1.17.17"
-  resolved "https://registry.yarnpkg.com/@blocklet/ui-react/-/ui-react-1.17.17.tgz#c2c1f3391e02af7cd40d1440535f8cca78365047"
-  integrity sha512-1EO/Wa2p8tFRFlWKPOEBkkbo/j9vpRT94Vij5cX833DClTwGL047dK3rmwwAX1lJyFJ9fo50Ffz0GPyUKz1tSQ==
+"@blocklet/ui-react@^1.17.18":
+  version "1.17.18"
+  resolved "https://registry.yarnpkg.com/@blocklet/ui-react/-/ui-react-1.17.18.tgz#53edff1ce0cbc0008054779c53fa4925c19d7c1e"
+  integrity sha512-cX14vK8ASYwkIPKK9DY0iNHGZnBC3EUnFpxx9ldnVQtPnxPs1zIrQLEjYcEhA2tE0yE1hsNcCIU3a9eX0aor6g==
   dependencies:
-    "@arcblock/did-connect" "^1.17.17"
-    "@arcblock/ux" "^1.17.17"
+    "@arcblock/did-connect" "^1.17.18"
+    "@arcblock/ux" "^1.17.18"
     "@iconify/iconify" "^2.2.1"
     "@material-ui/core" "^4.12.3"
     core-js "^3.6.4"
