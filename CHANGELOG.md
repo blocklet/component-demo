@@ -1,3 +1,7 @@
+## 1.2.5 (May 12, 2022)
+
+- chore(deps): bump chain and common deps to latest
+
 ## 1.2.4 (May 10, 2022)
 
 - chore: update favicon
