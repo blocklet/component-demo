@@ -31,7 +31,7 @@ documentation: ''
 timeout:
   start: 60
 requirements:
-  server: '>=1.6.29'
+  server: '>=1.7.15'
   os: '*'
   cpu: '*'
 environments: []
@@ -40,13 +40,17 @@ scripts:
 screenshots: []
 children:
   - name: auth-demo
-    resolved: >-
-      https://dev.store.blocklet.dev/api/blocklets/z8iZw1PjUeQP8yuEoBVWfcD9hft7cbUfxaTaT/blocklet.json
     mountPoint: /discussion
+    source:
+      store: https://dev.store.blocklet.dev
+      name: auth-demo
+      version: latest
   - name: profile-demo
-    resolved: >-
-      https://dev.store.blocklet.dev/api/blocklets/z8iZqG23gxzv6CbTmtWFAipHGLjPEha4BjAtE/blocklet.json
     mountPoint: /profile
+    source:
+      store: https://dev.store.blocklet.dev
+      name: profile-demo
+      version: latest
 payment:
   price: []
   share: []
