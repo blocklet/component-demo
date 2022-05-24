@@ -1,3 +1,7 @@
+## 1.2.6 (May 25, 2022)
+
+- chore: update children in blocklet.yml
+
 ## 1.2.5 (May 12, 2022)
 
 - chore(deps): bump chain and common deps to latest
