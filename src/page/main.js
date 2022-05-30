@@ -1,15 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import AccountBoxIcon from '@material-ui/icons/AccountBox';
-import TextsmsIcon from '@material-ui/icons/Textsms';
-import NavigateNextIcon from '@material-ui/icons/NavigateNext';
-import IconButton from '@material-ui/core/IconButton';
-import Box from '@material-ui/core/Box';
-import ListItemText from '@material-ui/core/ListItemText';
-import { Alert } from '@material-ui/lab';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import TextsmsIcon from '@mui/icons-material/Textsms';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import IconButton from '@mui/material/IconButton';
+import Box from '@mui/material/Box';
+import ListItemText from '@mui/material/ListItemText';
+import { Alert } from '@mui/material';
 import Header from '@blocklet/ui-react/lib/Header';
 import Footer from '@blocklet/ui-react/lib/Footer';
 
@@ -34,7 +34,7 @@ export default function Main() {
                 <TextsmsIcon />
               </ListItemIcon>
               <ListItemText primary="Discussion" />
-              <IconButton edge="end" aria-label="navigate">
+              <IconButton edge="end" aria-label="navigate" size="large">
                 <NavigateNextIcon />
               </IconButton>
             </ListItemLink>
@@ -43,7 +43,7 @@ export default function Main() {
                 <AccountBoxIcon />
               </ListItemIcon>
               <ListItemText primary="Profile" />
-              <IconButton edge="end" aria-label="navigate">
+              <IconButton edge="end" aria-label="navigate" size="large">
                 <NavigateNextIcon />
               </IconButton>
             </ListItemLink>

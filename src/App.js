@@ -2,7 +2,7 @@ import React from 'react';
 import { LocaleProvider } from '@arcblock/ux/lib/Locale/context';
 import { SessionProvider } from './libs/session';
 
-import CssBaseline from '@material-ui/core/CssBaseline';
+import CssBaseline from '@mui/material/CssBaseline';
 
 import Main from './page/main';
 
