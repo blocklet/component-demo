@@ -23,14 +23,12 @@ function App() {
     <StyledEngineProvider injectFirst>
       <MuiThemeProvider theme={theme}>
         <ThemeProvider theme={theme}>
-    <LocaleProvider translations={{}}>
-      <SessionProvider
-        serviceHost={apiPrefix}
-      >
-        <CssBaseline />
-        <Main />
-      </SessionProvider>
-    </LocaleProvider>
+          <LocaleProvider translations={{}}>
+            <SessionProvider serviceHost={apiPrefix}>
+              <CssBaseline />
+              <Main />
+            </SessionProvider>
+          </LocaleProvider>
         </ThemeProvider>
       </MuiThemeProvider>
     </StyledEngineProvider>

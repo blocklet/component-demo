@@ -1,3 +1,7 @@
+## 1.2.7 (May 30, 2022)
+
+- chore: upgrade to react 18 and mui v5
+
 ## 1.2.6 (May 25, 2022)
 
 - chore: update children in blocklet.yml
