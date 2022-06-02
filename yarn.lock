@@ -2,16 +2,16 @@
 # yarn lockfile v1
 
 
-"@arcblock/did-connect@^2.1.7":
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-connect/-/did-connect-2.1.7.tgz#9222695eb89679b63fe4063b6a2f5870f0ffd3ce"
-  integrity sha512-/mFMGBVm/tpoAD+DSti9UMe5LiWDHSLIqa7GTtFJMT7CkAahlc4Lauz8GB2MeDXPVTZGSTAa2SHVJjr93NH93g==
+"@arcblock/did-connect@^2.1.14":
+  version "2.1.14"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-connect/-/did-connect-2.1.14.tgz#fc03a8fec535f7333d5d68422832a625c94968d3"
+  integrity sha512-iE++M6RdxPXJDpJe/47P/1iAUtNRuJ3+PCQ18Fmb4gA/FO4xr/qR7Xk0Ys7jGyyP/lid66PKt5viawgbnMladQ==
   dependencies:
     "@arcblock/did-motif" "^1.1.8"
     "@arcblock/event-client" "^1.6.3"
-    "@arcblock/icons" "^2.1.7"
-    "@arcblock/react-hooks" "^2.1.7"
-    "@arcblock/ux" "^2.1.7"
+    "@arcblock/icons" "^2.1.14"
+    "@arcblock/react-hooks" "^2.1.14"
+    "@arcblock/ux" "^2.1.14"
     "@fontsource/lato" "^4.5.3"
     "@fontsource/ubuntu-mono" "^4.4.5"
     "@mui/icons-material" "^5.6.2"
@@ -45,27 +45,27 @@
     wolfy87-eventemitter "^5.2.5"
     ws "^7.2.0"
 
-"@arcblock/icons@^2.1.7":
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/@arcblock/icons/-/icons-2.1.7.tgz#6e857d2b36882815269367d5af80677fee954eca"
-  integrity sha512-LXPFZIWOdE3OEGKtW/mOkKvd/+xdWxlIswXmdBi+t4Vy+KKyqcuZghBNbNmHLaNuiSW6cTCyQQi8aBuKyh+gzw==
+"@arcblock/icons@^2.1.14":
+  version "2.1.14"
+  resolved "https://registry.yarnpkg.com/@arcblock/icons/-/icons-2.1.14.tgz#41b2963715d3516a3097c61f59054efe778c6a4b"
+  integrity sha512-la1MH06v6AQKdMSAZmgIdRi9R544Yhp9yaCZievhl6gihp59tNF9IW1GqrYxKE16dV+MbsatsEUO0UY4VYgmNA==
 
-"@arcblock/react-hooks@^2.1.7":
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-2.1.7.tgz#1acbfb9a6135adb35566375615e6d99f18d92ba8"
-  integrity sha512-n6AKjjrfto/w/1UL4OA+VOzXMdFVQzSpeCYYqBuCM3k/GyWcaaFTDZ3M83nMsOcfOMqhhJE72joKi7Uo8TyGrg==
+"@arcblock/react-hooks@^2.1.14":
+  version "2.1.14"
+  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-2.1.14.tgz#7e42f8076e4e3820d18a141e6f3a285bcddb6487"
+  integrity sha512-BZ7WA5u1yayj0RQKMaTDTaej7pFRf9NlXObdJIhabAD7uIv48+FiAUGSt4SOKpe4tti1fMx1UgcSjPKQ1jM6+A==
   dependencies:
     core-js "^3.6.4"
     event-target-shim "^5.0.1"
     ismobilejs "^1.0.3"
 
-"@arcblock/ux@^2.1.7":
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-2.1.7.tgz#91ae9a1e45602e56fdd16710eb92f43dfd0e694a"
-  integrity sha512-CbqIFcJDf9J/5E3waDO2+1guZjGsgIaWvEwF8xCuff+QmpiXKkAHDnH54D1wHUb0qgqNXlWtEOBfH8bedtOm6w==
+"@arcblock/ux@^2.1.14":
+  version "2.1.14"
+  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-2.1.14.tgz#a2a70787fb96d96c7535a887c5c8dd501d19b2c6"
+  integrity sha512-YRcMh61XrMyxU2mGijwAKYF2u47072vz9U7dnKemetaaDUrSRyrqOJPwXZypmRMDg4uuj/sP7a3QUKr8J2M5hg==
   dependencies:
-    "@arcblock/icons" "^2.1.7"
-    "@arcblock/react-hooks" "^2.1.7"
+    "@arcblock/icons" "^2.1.14"
+    "@arcblock/react-hooks" "^2.1.14"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
     "@emotion/react" "^11.9.0"
     "@emotion/styled" "^11.8.1"
@@ -88,6 +88,7 @@
     mui-datatables "^4.2.2"
     notistack "^2.0.5"
     react-cookie-consent "^6.4.1"
+    react-error-boundary "^3.1.4"
     react-helmet "^6.1.0"
     react-intersection-observer "^8.31.1"
     react-lottie-player "^1.4.2"
@@ -1308,16 +1309,17 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@blocklet/ui-react@^2.1.7":
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/@blocklet/ui-react/-/ui-react-2.1.7.tgz#f1e84aab1660542de922ce1249c36cc3bf8cbd1d"
-  integrity sha512-st9jAvyHzH3l4LdOrr3ADfArbbyXdN8Hr6+lmn40odJNCalg4SB/znHlvr8GefbhTxWoYznzZec8is1aRvnwwA==
+"@blocklet/ui-react@^2.1.14":
+  version "2.1.14"
+  resolved "https://registry.yarnpkg.com/@blocklet/ui-react/-/ui-react-2.1.14.tgz#0d980254731d11e874c03f8e03bee5e375afefa4"
+  integrity sha512-Uphi0zQ9Omj0IuqTVm9b8SAo4deWi3UOWiR5zpiFl5HOovX1CqozWsPa6jkXiIyzBC+FIWeoatZQuRbRTJvkBA==
   dependencies:
-    "@arcblock/did-connect" "^2.1.7"
-    "@arcblock/ux" "^2.1.7"
+    "@arcblock/did-connect" "^2.1.14"
+    "@arcblock/ux" "^2.1.14"
     "@iconify/iconify" "^2.2.1"
     "@mui/material" "^5.6.4"
     core-js "^3.6.4"
+    react-error-boundary "^3.1.4"
     styled-components "^5.0.0"
 
 "@cnakazawa/watch@^1.0.3":
@@ -10481,6 +10483,13 @@ react-dom@^18.1.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.22.0"
+
+react-error-boundary@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/react-error-boundary/-/react-error-boundary-3.1.4.tgz#255db92b23197108757a888b01e5b729919abde0"
+  integrity sha512-uM9uPzZJTF6wRQORmSrvOIgt4lJ9MC1sNgEOj2XGsDTRE4kmpWxg7ENK9EWNKJRMAOY9z0MuF4yIfl6gp4sotA==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
 
 react-error-overlay@^6.0.9:
   version "6.0.9"
