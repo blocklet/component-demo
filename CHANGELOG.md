@@ -1,3 +1,7 @@
+## 1.2.8 (June 02, 2022)
+
+- chore: update blocklet-ui and adjust layout
+
 ## 1.2.7 (May 30, 2022)
 
 - chore: upgrade to react 18 and mui v5
