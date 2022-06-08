@@ -1,5 +1,5 @@
 name: component-demo
-version: 1.2.8
+version: 1.2.9
 main: build
 author:
   name: linchen1987
@@ -40,11 +40,17 @@ scripts:
 screenshots: []
 children:
   - name: auth-demo
-    resolved: file:///Users/edison/repos/auth-demo/.blocklet/release/blocklet.json
     mountPoint: /discussion
+    source:
+      store: https://dev.store.blocklet.dev
+      name: auth-demo
+      version: latest
   - name: profile-demo
-    resolved: file:///Users/edison/repos/profile-demo/.blocklet/release/blocklet.json
     mountPoint: /profile
+    source:
+      store: https://dev.store.blocklet.dev
+      name: profile-demo
+      version: latest
 payment:
   price: []
   share: []

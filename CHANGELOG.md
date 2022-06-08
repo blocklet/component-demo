@@ -1,3 +1,7 @@
+## 1.2.9 (June 08, 2022)
+
+- fix: incorrect children configs in blocklet.yml
+
 ## 1.2.8 (June 02, 2022)
 
 - chore: update blocklet-ui and adjust layout
