@@ -1,3 +1,7 @@
+## 1.2.10 (June 13, 2022)
+
+- chore: update arcblock dependences
+
 ## 1.2.9 (June 08, 2022)
 
 - fix: incorrect children configs in blocklet.yml

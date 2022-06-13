@@ -1,6 +1,6 @@
 {
   "name": "component-demo",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "main": "index.js",
   "author": "ArcBlock",
   "homepage": ".",
@@ -18,9 +18,9 @@
     "coverage": "npm run test -- --coverage"
   },
   "dependencies": {
-    "@arcblock/did-connect": "^2.1.14",
-    "@arcblock/ux": "^2.1.14",
-    "@blocklet/ui-react": "^2.1.14",
+    "@arcblock/did-connect": "^2.1.27",
+    "@arcblock/ux": "^2.1.27",
+    "@blocklet/ui-react": "^2.1.27",
     "@mui/material": "^5.8.1",
     "@mui/styles": "^5.8.0",
     "@emotion/styled": "^11.8.1",
