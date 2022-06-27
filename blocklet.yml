@@ -1,5 +1,5 @@
 name: component-demo
-version: 1.2.11
+version: 1.2.12
 main: build
 author:
   name: linchen1987
@@ -71,12 +71,12 @@ navigation:
       zh: 讨论
     icon: tabler:message-2
     child: auth-demo
-  - title: 
+  - title:
       en: Profile
       zh: 用户信息
     icon: mdi:text-box-outline
     child: profile-demo
-  - title: 
+  - title:
       en: Store
       zh: 商店
     icon: material-symbols:storefront-outline
