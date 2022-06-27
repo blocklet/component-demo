@@ -73,7 +73,7 @@ navigation:
     child: auth-demo
   - title:
       en: Profile
-      zh: 用户信息
+      zh: 用户简介
     icon: mdi:text-box-outline
     child: profile-demo
   - title:
