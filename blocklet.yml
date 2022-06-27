@@ -1,10 +1,10 @@
 name: component-demo
-version: 1.2.10
+version: 1.2.11
 main: build
 author:
   name: linchen1987
-homepage: ""
-license: ""
+homepage: ''
+license: ''
 title: Component Demo
 description: Combining multiple blocklets together
 group: static
@@ -23,18 +23,18 @@ interfaces:
   - type: web
     name: publicUrl
     path: /
-    prefix: "*"
+    prefix: '*'
     port: BLOCKLET_PORT
     protocol: http
 did: z8iZoDztjkY82fsU26vwE8M94eHDK4tjwrFgd
-community: ""
-documentation: ""
+community: ''
+documentation: ''
 timeout:
   start: 60
 requirements:
-  server: ">=1.7.15"
-  os: "*"
-  cpu: "*"
+  server: '>=1.7.15'
+  os: '*'
+  cpu: '*'
 environments: []
 scripts:
   dev: npm run start
@@ -59,7 +59,7 @@ capabilities:
   clusterMode: false
   component: true
 theme:
-  background: "#fff"
+  background: '#fff'
 navigation:
   - title: Home
     link: /

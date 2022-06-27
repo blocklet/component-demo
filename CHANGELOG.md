@@ -1,3 +1,8 @@
+## 1.2.11 (June 27, 2022)
+
+- fix: resize the logo
+- [skip ci] Update README.md
+
 ## 1.2.10 (June 13, 2022)
 
 - chore: update arcblock dependences
