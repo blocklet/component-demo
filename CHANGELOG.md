@@ -1,3 +1,7 @@
+## 1.2.12 (June 27, 2022)
+
+- chore: improve header navigation & update deps
+
 ## 1.2.11 (June 27, 2022)
 
 - fix: resize the logo
