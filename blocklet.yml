@@ -59,17 +59,29 @@ capabilities:
   clusterMode: false
   component: true
 theme:
-  background: '#fff'
+  background: '#fbfbfb'
 navigation:
-  - title: Home
+  - title:
+      en: Home
+      zh: 首页
     link: /
-  - title: Discuss
+    icon: mdi:home-outline
+    section: header
+  - title:
+      en: Discuss
+      zh: 讨论
+    icon: mdi:message-badge-outline
     child: auth-demo
-  - title: Profile
+    section: header
+  - title: 
+      en: Profile
+      zh: 用户信息
+    icon: mdi:text-box-outline
     child: profile-demo
-  - title: Store
-    items:
-      - title: Blocklet Store
-        link: https://store.blocklet.dev
-      - title: Dev Blocklet Store
-        link: https://dev.store.blocklet.dev
+    section: header
+  - title: 
+      en: Store
+      zh: 商店
+    icon: mdi:store-outline
+    section: header
+    
