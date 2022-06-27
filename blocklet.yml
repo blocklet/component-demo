@@ -1,5 +1,5 @@
 name: component-demo
-version: 1.2.10
+version: 1.2.11
 main: build
 author:
   name: linchen1987
@@ -9,6 +9,7 @@ title: Component Demo
 description: Combining multiple blocklets together
 group: static
 specVersion: 1.2.7
+logo: logo.png
 files:
   - blocklet.md
   - README.md
