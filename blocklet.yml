@@ -69,7 +69,7 @@ navigation:
   - title:
       en: Discuss
       zh: 讨论
-    icon: mdi:message-badge-outline
+    icon: tabler:message-2
     child: auth-demo
   - title: 
       en: Profile
@@ -79,7 +79,7 @@ navigation:
   - title: 
       en: Store
       zh: 商店
-    icon: mdi:store-outline
+    icon: material-symbols:storefront-outline
     items:
       - title: Blocklet Store
         link: https://store.blocklet.dev
