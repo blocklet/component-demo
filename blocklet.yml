@@ -1,5 +1,5 @@
 name: component-demo
-version: 1.2.12
+version: 1.2.13
 main: build
 author:
   name: linchen1987
@@ -39,19 +39,6 @@ environments: []
 scripts:
   dev: npm run start
 screenshots: []
-children:
-  - name: auth-demo
-    mountPoint: /discussion
-    source:
-      store: https://dev.store.blocklet.dev
-      name: auth-demo
-      version: latest
-  - name: profile-demo
-    mountPoint: /profile
-    source:
-      store: https://dev.store.blocklet.dev
-      name: profile-demo
-      version: latest
 payment:
   price: []
   share: []
@@ -70,12 +57,12 @@ navigation:
       en: Discuss
       zh: 讨论
     icon: tabler:message-2
-    child: auth-demo
+    component: auth-demo
   - title:
       en: Profile
       zh: 用户简介
     icon: mdi:text-box-outline
-    child: profile-demo
+    component: profile-demo
   - title:
       en: Store
       zh: 商店
@@ -85,3 +72,16 @@ navigation:
         link: https://store.blocklet.dev
       - title: Dev Blocklet Store
         link: https://dev.store.blocklet.dev
+components:
+  - name: auth-demo
+    mountPoint: /discussion
+    source:
+      store: https://dev.store.blocklet.dev
+      name: auth-demo
+      version: latest
+  - name: profile-demo
+    mountPoint: /profile
+    source:
+      store: https://dev.store.blocklet.dev
+      name: profile-demo
+      version: latest

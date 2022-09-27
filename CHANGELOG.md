@@ -1,3 +1,7 @@
+## 1.2.13 (September 27, 2022)
+
+- chore: rename children to components in blocklet.yml
+
 ## 1.2.12 (June 27, 2022)
 
 - chore: improve header navigation & update deps
