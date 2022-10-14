@@ -18,29 +18,24 @@
     "coverage": "npm run test -- --coverage"
   },
   "dependencies": {
-    "@arcblock/did-connect": "^2.1.42",
-    "@arcblock/ux": "^2.1.42",
-    "@blocklet/ui-react": "^2.1.42",
-    "@mui/material": "^5.8.1",
-    "@mui/styles": "^5.8.0",
-    "@emotion/styled": "^11.8.1",
-    "@emotion/react": "^11.9.0",
-    "@mui/icons-material": "^5.8.0",
-    "@mui/lab": "^5.0.0-alpha.83",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
+    "@arcblock/did-connect": "^2.4.37",
+    "@arcblock/ux": "^2.4.37",
+    "@blocklet/ui-react": "^2.4.37",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/lab": "^5.0.0-alpha.102",
+    "@mui/material": "^5.10.8",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
     "dotenv-flow": "^3.2.0",
-    "fs-extra": "^9.1.0",
-    "lodash": "^4.17.20",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-scripts": "4.0.2",
-    "styled-components": "^5.3.5",
-    "web-vitals": "^1.0.1"
-  },
-  "resolutions": {
-    "styled-components": "5.3.5"
+    "web-vitals": "^3.0.3"
   },
   "eslintConfig": {
     "extends": [
@@ -61,10 +56,10 @@
     ]
   },
   "devDependencies": {
-    "http-proxy-middleware": "^1.0.6",
-    "jest": "^26.6.3",
-    "nodemon": "^2.0.7",
+    "http-proxy-middleware": "^2.0.6",
+    "jest": "^29.1.2",
+    "nodemon": "^2.0.20",
     "npm-run-all": "^4.1.5",
-    "react-app-rewired": "^2.1.8"
+    "react-app-rewired": "^2.2.1"
   }
 }
