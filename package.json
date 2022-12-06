@@ -1,11 +1,12 @@
 {
   "name": "component-demo",
-  "version": "1.2.13",
+  "version": "1.2.14",
   "main": "index.js",
   "author": "ArcBlock",
   "homepage": ".",
   "license": "MIT",
   "scripts": {
+    "dev": "blocklet dev",
     "lint": "eslint src api",
     "clean": "rm -rf build",
     "start": "npm-run-all --parallel start::client",

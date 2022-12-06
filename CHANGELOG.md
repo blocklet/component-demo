@@ -1,3 +1,8 @@
+## 1.2.14 (December 06, 2022)
+
+- chore: add navigation id
+- chore: update deps & remove styled-components (#34)
+
 ## 1.2.13 (September 27, 2022)
 
 - chore: rename children to components in blocklet.yml
