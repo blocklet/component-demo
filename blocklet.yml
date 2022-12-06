@@ -48,29 +48,35 @@ capabilities:
 theme:
   background: '#fbfbfb'
 navigation:
-  - title:
+  - id: home
+    title:
       en: Home
       zh: 首页
     link: /
     icon: mdi:home-outline
-  - title:
+  - id: discuss
+    title:
       en: Discuss
       zh: 讨论
     icon: tabler:message-2
     component: auth-demo
-  - title:
+  - id: profile
+    title:
       en: Profile
       zh: 用户简介
     icon: mdi:text-box-outline
     component: profile-demo
-  - title:
+  - id: store
+    title:
       en: Store
       zh: 商店
     icon: material-symbols:storefront-outline
     items:
-      - title: Blocklet Store
+      - id: store_prod
+        title: Blocklet Store
         link: https://store.blocklet.dev
-      - title: Dev Blocklet Store
+      - id: store_dev
+        title: Dev Blocklet Store
         link: https://dev.store.blocklet.dev
 components:
   - name: auth-demo
