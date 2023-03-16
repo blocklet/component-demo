@@ -1,3 +1,8 @@
+## 1.2.15 (March 16, 2023)
+
+- chore: bump deps to latest
+- [skip ci] Update README.md
+
 ## 1.2.14 (December 06, 2022)
 
 - chore: add navigation id
