@@ -1,5 +1,5 @@
 name: component-demo
-version: 1.2.15
+version: 1.2.16
 main: build
 author:
   name: linchen1987
@@ -32,7 +32,7 @@ documentation: ''
 timeout:
   start: 60
 requirements:
-  server: '>=1.7.15'
+  server: '>=1.16.0'
   os: '*'
   cpu: '*'
 environments: []
