@@ -13,7 +13,7 @@
     "start:client": "NODE_ENV=development react-app-rewired start",
     "bundle": "yarn clean && npm run bundle:client && blocklet bundle --create-release",
     "bundle:client": "REACT_APP_API_PREFIX=\"\" REACT_APP_APP_NAME=\"Component Demo\" yarn build:client",
-    "build:client": "react-scripts build && rm -f build/**/**/*.{js,css}.map",
+    "build:client": "react-app-rewired build && rm -f build/**/**/*.{js,css}.map",
     "test": "node tools/jest.js",
     "release": "npm run clean && npm run bundle",
     "coverage": "npm run test -- --coverage"
@@ -57,10 +57,19 @@
     ]
   },
   "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
     "http-proxy-middleware": "^2.0.6",
+    "https-browserify": "^1.0.0",
     "jest": "^29.5.0",
     "nodemon": "^2.0.22",
     "npm-run-all": "^4.1.5",
-    "react-app-rewired": "^2.2.1"
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
   }
 }
