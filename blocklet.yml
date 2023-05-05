@@ -46,6 +46,7 @@ capabilities:
   clusterMode: false
   component: true
   navigation: true
+  serverless: false
 theme:
   background: '#fbfbfb'
 navigation:

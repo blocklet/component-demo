@@ -15,5 +15,6 @@ bundle:
 
 github-action-init:
 	@make dep
+	@sudo npm install -g @blocklet/cli@beta
 
 include .makefiles/*.mk

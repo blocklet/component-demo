@@ -29,6 +29,7 @@ jobs:
       - name: Blocklet workflow
         uses: blocklet/action-workflow@v1.1
         with:
+          skip-deps: true
           skip-upload: false
           bundle-command: yarn release
           store-endpoint: ${{ secrets.STORE_ENDPOINT_DEV }}
