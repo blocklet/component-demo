@@ -1,3 +1,8 @@
+## 1.2.19 (May 24, 2023)
+
+- chore: bump deps to latest
+- [skip ci] Update README.md
+
 ## 1.2.18 (May 05, 2023)
 
 - chore: disable install on serverless
