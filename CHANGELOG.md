@@ -1,7 +1,10 @@
+## 1.2.20 (June 14, 2023)
+
+- chore: bump deps to latest
+
 ## 1.2.19 (May 24, 2023)
 
 - chore: bump deps to latest
-- [skip ci] Update README.md
 
 ## 1.2.18 (May 05, 2023)
 
@@ -10,7 +13,6 @@
 ## 1.2.17 (April 24, 2023)
 
 - chore: bump deps to latest
-- [skip ci] Update README.md
 
 ## 1.2.16 (April 04, 2023)
 
@@ -19,7 +21,6 @@
 ## 1.2.15 (March 16, 2023)
 
 - chore: bump deps to latest
-- [skip ci] Update README.md
 
 ## 1.2.14 (December 06, 2022)
 
@@ -37,7 +38,6 @@
 ## 1.2.11 (June 27, 2022)
 
 - fix: resize the logo
-- [skip ci] Update README.md
 
 ## 1.2.10 (June 13, 2022)
 
