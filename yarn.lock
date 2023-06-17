@@ -24,14 +24,14 @@
     jsonpointer "^5.0.0"
     leven "^3.1.0"
 
-"@arcblock/did-connect@^2.5.50":
-  version "2.5.50"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-connect/-/did-connect-2.5.50.tgz#883b0090db6249d4b296d69232cd81276b3cfba3"
-  integrity sha512-JsoA7nDRDDHdVDJl1PjoFGkaiO/GQLFrim2u8N0FeEQBYhTp8dkTvLjPehmu0oco/oaQj3MCwflowA80mxfxFQ==
+"@arcblock/did-connect@^2.5.52":
+  version "2.5.52"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-connect/-/did-connect-2.5.52.tgz#17f26aa4988f57d3ebd3e503339416082dac0a46"
+  integrity sha512-y19I6Dz1/uuIdn1t23jlQV2tqUwXKGhyb7qrJI9tMQjfMy3I2Zgw7u1iRZhFzc3rmAR7YmQH6KDow8LpZfnX8Q==
   dependencies:
-    "@arcblock/icons" "^2.5.50"
-    "@arcblock/react-hooks" "^2.5.50"
-    "@arcblock/ux" "^2.5.50"
+    "@arcblock/icons" "^2.5.52"
+    "@arcblock/react-hooks" "^2.5.52"
+    "@arcblock/ux" "^2.5.52"
     "@arcblock/ws" "^1.18.84"
     "@auth0/auth0-react" "^2.0.1"
     "@emotion/react" "^11.10.4"
@@ -45,6 +45,7 @@
     dsbridge "3.1.4"
     eventemitter3 "^5.0.1"
     js-cookie "^2.2.1"
+    lodash "^4.17.21"
     mdi-material-ui "^7.5.0"
     react-use "^17.4.0"
     tweetnacl "^1.0.3"
@@ -79,10 +80,10 @@
     amp-message "~0.1.2"
     axon "^2.0.3"
 
-"@arcblock/icons@^2.5.50":
-  version "2.5.50"
-  resolved "https://registry.yarnpkg.com/@arcblock/icons/-/icons-2.5.50.tgz#6670fd1b821f55297c905e215e8d69cf498815db"
-  integrity sha512-XXw5GUY/OA9pRBE+DhEOZZmxXrAxipQlvpZElbwcQpu5LahaJ1RTpQMNeXxLQpEs5us+CQqzYHa98x1tRNztVQ==
+"@arcblock/icons@^2.5.52":
+  version "2.5.52"
+  resolved "https://registry.yarnpkg.com/@arcblock/icons/-/icons-2.5.52.tgz#15941b24873763640d8cbb6d9f2b3f435eb2fa76"
+  integrity sha512-bws/l17dn6uTYY24kPlEnXcSt3mUDHt+SkIIIASafPQBbCw7bcD+GtaZLcs7xB7GqfKnE6D3IRuL/P59wl+M8A==
 
 "@arcblock/jwt@1.18.84":
   version "1.18.84"
@@ -96,23 +97,23 @@
     json-stable-stringify "^1.0.1"
     semver "^7.3.8"
 
-"@arcblock/react-hooks@^2.5.50":
-  version "2.5.50"
-  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-2.5.50.tgz#49965d549daf70d1c065b665c957aef070df23d4"
-  integrity sha512-+Wsbqq1aEsler8mOlbIyfmGJ5N8qfz8U+MKOM7Tnf7AoQrYL/6P9mP5IJ1+LZg99KqRtR1rREt2VCyf6fjdAYQ==
+"@arcblock/react-hooks@^2.5.52":
+  version "2.5.52"
+  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-2.5.52.tgz#1e4a83819059e3fe911337e7b99f016e946642ff"
+  integrity sha512-S9fGv+8TErc3t8ucz2qgvYBBXN/96vfpcMuMG9q53mKaiXMCbvJWm4TmRg4Q5B7htgJ9+X3dfpaxDG67I8H61A==
   dependencies:
     core-js "^3.25.5"
     event-target-shim "^5.0.1"
     ismobilejs "^1.1.1"
 
-"@arcblock/ux@^2.5.50":
-  version "2.5.50"
-  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-2.5.50.tgz#c43f6cf1a9977334f1c6b8a479edc7f7886f8863"
-  integrity sha512-JAVNg7Q4LtZ4oeBN/qGlL+Vt+sGbKnBs4L0tXlsmcqDXvxc/fBIc/ezljHj3y0OFK0YC2D1vcI0PhXO6MgAYpA==
+"@arcblock/ux@^2.5.52":
+  version "2.5.52"
+  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-2.5.52.tgz#1bb04c3914484b6a736af038e000898847e7a5bc"
+  integrity sha512-v7I0Zisen7FYJje3oJiQcheOKZscQG97wJ8h58ByHTsBSICWWvMCDgTE8Fb57oQLEDNDNCanWyvu8HeV8V450A==
   dependencies:
     "@arcblock/did-motif" "^1.1.10"
-    "@arcblock/icons" "^2.5.50"
-    "@arcblock/react-hooks" "^2.5.50"
+    "@arcblock/icons" "^2.5.52"
+    "@arcblock/react-hooks" "^2.5.52"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
     "@emotion/react" "^11.10.4"
     "@emotion/styled" "^11.10.4"
@@ -1242,13 +1243,13 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@blocklet/ui-react@^2.5.50":
-  version "2.5.50"
-  resolved "https://registry.yarnpkg.com/@blocklet/ui-react/-/ui-react-2.5.50.tgz#6633d2036a76446e21e376f7bd128e13e02304c2"
-  integrity sha512-6bAIJVMKsafNWTVlt0oEBu+86XAshj4uJUCtJASqITI2ZspLAC0dF1ZcSmlPEkMEI7azI5JDh+vkY9sDp6HhzQ==
+"@blocklet/ui-react@^2.5.52":
+  version "2.5.52"
+  resolved "https://registry.yarnpkg.com/@blocklet/ui-react/-/ui-react-2.5.52.tgz#fe63e7ef099dbf8b6b6a2c0bf599f7ac76a09632"
+  integrity sha512-jlqzMSOZAMPkWhXfuz9arz2y1NIbKTTI2pkcQzHaF116xIpg4B7HcSUcn2cdVMUiEQWpcjFSUuRZPvNNLMcQyA==
   dependencies:
-    "@arcblock/did-connect" "^2.5.50"
-    "@arcblock/ux" "^2.5.50"
+    "@arcblock/did-connect" "^2.5.52"
+    "@arcblock/ux" "^2.5.52"
     "@emotion/react" "^11.10.4"
     "@emotion/styled" "^11.10.4"
     "@iconify/iconify" "^2.2.1"
