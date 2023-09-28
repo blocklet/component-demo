@@ -1,3 +1,7 @@
+## 1.2.23 (September 28, 2023)
+
+- chore: update blocklet.yml
+
 ## 1.2.22 (September 12, 2023)
 
 - chore: update deps
