@@ -19,9 +19,9 @@
     "coverage": "npm run test -- --coverage"
   },
   "dependencies": {
-    "@arcblock/did-connect": "^2.8.12",
-    "@arcblock/ux": "^2.8.12",
-    "@blocklet/ui-react": "^2.8.12",
+    "@arcblock/did-connect": "^2.8.21",
+    "@arcblock/ux": "^2.8.21",
+    "@blocklet/ui-react": "^2.8.21",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.11",
